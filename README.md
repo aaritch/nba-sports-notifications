@@ -99,8 +99,7 @@ Convenient delivery direct to subscriber email
 ![nba_sports_test](images/nba_sports_test.png)
 
 ## Success
-**Did it Work**
-   Yaaaaaaaaaa!
+Yaaaaaaaaaa!
 ![success_nba_sports](images/success_nba_sports.png)
 
 ## Links
