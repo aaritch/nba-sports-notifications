@@ -101,7 +101,7 @@ Convenient delivery direct to subscriber email
 ## Success
 **Did it Work**
    Yaaaaaaaaaa!
-![success_nba_sports](images1success_nba_sports.png)
+![success_nba_sports](images/1success_nba_sports.png)
 
 ## Links
 Big shout out to the good folks at the [30 DAY DEVOPS CHALLENGE](https://ugcshae.my.canva.site/30-day-devops-challenge). Y'all invoke the joy in me to build solutions whether simple or complex!
