@@ -18,7 +18,7 @@ Convenient delivery direct to subscriber email
 [SportsDataIO NBA API](https://sportsdata.io/developers/api-documentation/nba)
 
 ## Architecture
-![build diagram](images\nba_sports_architecture.png)
+![build diagram](images/nba_sports_architecture.png)
 
 ## Setup
 **Create SNS Topic** (click [here](https://signin.aws.amazon.com/signup?request_type=register) to sign up if you dont have an AWS account)
@@ -27,7 +27,7 @@ Convenient delivery direct to subscriber email
 3. Click Create Topic and select Standard as the topic type.
 4. Name the topic (e.g., nba_sports) and note the ARN.
 5. Click Create Topic. 
-![sns_topic](images\sns_topic.png)
+![sns_topic](images/sns_topic.png)
 
 **Create Subscription to SNS Topic**
 1. After creating the topic, click on the topic name from the list.
@@ -38,7 +38,7 @@ Convenient delivery direct to subscriber email
 6. Click Create Subscription.
 7. Check the inbox of the provided email address.
 8. Confirm the subscription by clicking the confirmation link in the email.
-![sns_subscription](images\sns_subscription.png)
+![sns_subscription](images/sns_subscription.png)
 
 **Create SNS Policy**
 1. Navigate to IAM in AWS Management Console.
@@ -63,7 +63,7 @@ Convenient delivery direct to subscriber email
 7. Enter a name for the role (e.g., lambda_role_nba_sports).
 8. Review and click Create Role.
 9. Copy and save the ARN of the role for use in the Lambda function.
-![lambda_role_nba_sports](images\lambda_role_nba_sports.png)
+![lambda_role_nba_sports](images/lambda_role_nba_sports.png)
 
 **Deploy Lambda Function**
 1. Navigate to Lambda in AWS Management Console.
@@ -79,8 +79,8 @@ Convenient delivery direct to subscriber email
    NBA_API_KEY: your NBA API key.
    SNS_TOPIC_ARN: the ARN of the SNS topic created earlier.
 9. Click Create Function.
-![env_variables](images\env_variables.png)
-![lambda_function](images\lambda_fuction.png)
+![env_variables](images/env_variables.png)
+![lambda_function](images/lambda_fuction.png)
 
 **Create Eventbridge Schedule**
 1. Navigate to Eventbridge in AWS Management Console.
@@ -96,12 +96,12 @@ Convenient delivery direct to subscriber email
 2. Create a test to simulate execution.
 3. Run the function and check CloudWatch Logs for errors.
 4. Verify that email notifications were sent to the subscribed users.
-![nba_sports_test](images\nba_sports_test.png)
+![nba_sports_test](images/nba_sports_test.png)
 
 ## Success
 **Did it Work**
    Yaaaaaaaaaa!
-![success_nba_sports](images\success_nba_sports.png)
+![success_nba_sports](images1success_nba_sports.png)
 
 ## Links
 Big shout out to the good folks at the [30 DAY DEVOPS CHALLENGE](https://ugcshae.my.canva.site/30-day-devops-challenge). Y'all invoke the joy in me to build solutions whether simple or complex!
