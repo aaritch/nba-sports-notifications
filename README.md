@@ -99,7 +99,6 @@ Convenient delivery direct to subscriber email
 ![nba_sports_test](images/nba_sports_test.png)
 
 ## Success
-Yaaaaaaaaaa!
 ![success_nba_sports](images/success_nba_sports.png)
 
 ## Links
@@ -113,4 +112,4 @@ Big shout out to the good folks at the [30 DAY DEVOPS CHALLENGE](https://ugcshae
    
 ## Next
 1. Add additonal Sports via API (NFL, NHL, etc)
-2. Create SMS subscriptions in AWS SNS# nba-sports-notifications
+2. Add SMS subscriptions via AWS SNS
